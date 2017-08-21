@@ -1,0 +1,21 @@
+{
+  "name": "ambot",
+  "version": "1.0.0",
+  "description": "access.mobile slack bot",
+  "main": "lib/ambot.js",
+  "scripts": {
+    "test": "test_ambot",
+    "start": "node bin/bot.js"
+  },
+  "keywords": [
+    "access.mobile",
+    "bot",
+    "slack"
+  ],
+  "author": "Andrew Olobo",
+  "license": "ISC",
+  "dependencies": {
+    "slackbots": "^0.5.3",
+    "sqlite3": "^3.1.8"
+  }
+}
